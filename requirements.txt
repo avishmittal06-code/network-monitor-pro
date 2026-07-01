@@ -1,0 +1,4 @@
+ping3==4.0.8
+rich==13.7.0
+pyyaml==6.0.1
+requests==2.31.0

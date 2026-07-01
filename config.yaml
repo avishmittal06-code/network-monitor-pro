@@ -1,0 +1,19 @@
+settings:
+  ping_interval: 2.0
+  history_size: 10
+  alert_threshold_pct: 80.0
+
+notifications:
+  webhook_url: ""
+
+targets:
+  - host: "8.8.8.8"
+    type: "icmp"
+    name: "Google DNS"
+  - host: "github.com"
+    type: "http"
+    name: "GitHub Web"
+  - host: "portquiz.net"
+    type: "tcp"
+    port: 80
+    name: "Outbound Port Test"
